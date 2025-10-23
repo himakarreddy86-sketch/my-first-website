@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Himakar's First Project</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      text-align: center;
+      background: url('https://images.unsplash.com/photo-1518770660439-4636190af475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200') no-repeat center center fixed;
+      background-size: cover;
+      min-height: 100vh;
+    }
+
+    h1, h2, p, button, #hiddenParagraph, #importance, #thankyou {
+      text-shadow: 0 0 8px #00ffea, 0 0 12px #00ffea, 0 0 20px #00ffea, 0 0 30px #00ffea;
+    }
+
+    h1 {
+      font-size: 60px;
+      margin-top: 80px;
+    }
+
+    h2 {
+      font-size: 36px;
+      margin-top: 20px;
+    }
+
+    p {
+      font-size: 22px;
+      width: 80%;
+      margin: 20px auto;
+      line-height: 1.6;
+    }
+
+    button {
+      font-size: 20px;
+      padding: 12px 25px;
+      margin: 20px;
+      border: none;
+      border-radius: 8px;
+      background-color: #ff5722;
+      color: white;
+      cursor: pointer;
+      box-shadow: 0 0 10px #ff5722;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      transform: scale(1.1);
+      background-color: #ff784e;
+      box-shadow: 0 0 20px #ff784e;
+    }
+
+    #hiddenParagraph {
+      display: none;
+      font-size: 20px;
+      margin: 15px auto;
+      width: 90%;
+      background: rgba(0,0,0,0.5);
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    #importance, #thankyou {
+      margin-top: 30px;
+      font-size: 22px;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.6;
+      background: rgba(0,0,0,0.5);
+      padding: 15px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>NEW ERA OF CODERS!</h1>
+
+  <h2>CODING IS FUN</h2>
+
+  <p>My name is Himakar. I am a beginner in coding. This is the first project of mine. I'll show you how to do it.</p>
+
+  <button onclick="showParagraph()">Click Here to Learn Easy Coding Method</button>
+
+  <div id="hiddenParagraph">
+    If we want to do coding easily, just open ChatGPT and ask what you want, copy the code, paste it on QuickEdit, save it as <b>index.html</b>, and open it in Chrome. This is the super easy method.
+  </div>
+
+  <div id="importance">
+    <b>Importance of Coding:</b><br>
+    Coding helps us create apps, websites, games, and tools. It improves problem-solving, creativity, and logical thinking. It allows us to turn ideas into real digital solutions and contribute to the tech world.
+  </div>
+
+  <div id="thankyou">
+    Thank you! 🚀
+  </div>
+
+  <script>
+    function showParagraph() {
+      var x = document.getElementById("hiddenParagraph");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
